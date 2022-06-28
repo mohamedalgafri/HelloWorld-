@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #0f0f11;
+    
+}
+
+h1{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-size: 70px;
+    font-family: Segoe Print;
+    color: #E8E9EB;
+
+  
+}
+img{
+    width: 700px;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    z-index: -1;
+}
+.logo{
+    position: absolute;
+    font-size: 20px;
+    color: #E8E9EB;
+    font-family: Segoe Print;
+    left: 30px;
+    top: 10px;
+
+}
+.p{
+    display: flex;
+  
+
+}
+.p p{
+    position: relative;
+    font-size: 22px;
+    color: #E8E9EB;
+    font-family: Segoe Print;
+    left: 50px;
+    top: 300px;
+    margin-left: 10px;
+
+}
+
+button{
+    position: relative;
+    font-size: 28px;
+    font-family: Segoe Print;
+    width: 450px;
+    height: 50px;
+    top: 350px;
+    left: 50px;
+
+}
+button:hover{
+    font-size: 28.4px;
+    background-color: #e8e9ebd0;
+}
+
+@media screen and (max-width:500px){
+    img{
+        width: 400px;
+        position: absolute;
+        top: 5px;
+        right: 50px;
+        z-index: -1;
+    }
+    button{
+        position: relative;
+        font-size: 18px;
+        font-family: Segoe Print;
+        width: 150px;
+        height: 50px;
+        top: 550px;
+        left: 50px;
+    
+    }
+}
+
